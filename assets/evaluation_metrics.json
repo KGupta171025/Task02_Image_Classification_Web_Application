@@ -1,0 +1,192 @@
+{
+  "model_name": "MobileNetV2",
+  "dataset": "CIFAR-10",
+  "total_test_samples": 9998,
+  "top_1_accuracy": 92.82,
+  "top_5_accuracy": 99.45,
+  "confusion_matrix": [
+    [
+      938,
+      16,
+      2,
+      15,
+      9,
+      6,
+      1,
+      6,
+      4,
+      2
+    ],
+    [
+      0,
+      902,
+      45,
+      23,
+      3,
+      3,
+      3,
+      5,
+      10,
+      7
+    ],
+    [
+      4,
+      2,
+      948,
+      0,
+      17,
+      1,
+      0,
+      5,
+      2,
+      20
+    ],
+    [
+      24,
+      14,
+      7,
+      902,
+      0,
+      34,
+      10,
+      6,
+      0,
+      3
+    ],
+    [
+      7,
+      2,
+      8,
+      0,
+      927,
+      28,
+      3,
+      13,
+      4,
+      8
+    ],
+    [
+      6,
+      0,
+      12,
+      4,
+      3,
+      941,
+      17,
+      9,
+      3,
+      6
+    ],
+    [
+      11,
+      8,
+      5,
+      5,
+      20,
+      6,
+      939,
+      2,
+      2,
+      1
+    ],
+    [
+      28,
+      10,
+      1,
+      0,
+      11,
+      8,
+      8,
+      924,
+      9,
+      0
+    ],
+    [
+      7,
+      16,
+      12,
+      4,
+      1,
+      3,
+      7,
+      7,
+      938,
+      6
+    ],
+    [
+      18,
+      5,
+      1,
+      11,
+      12,
+      7,
+      12,
+      6,
+      6,
+      921
+    ]
+  ],
+  "confusion_matrix_plot": "assets/confusion_matrix.png",
+  "classification_report": {
+    "airplane": {
+      "precision": 0.8993,
+      "recall": 0.9389,
+      "f1-score": 0.9187,
+      "support": 1000
+    },
+    "automobile": {
+      "precision": 0.9251,
+      "recall": 0.9011,
+      "f1-score": 0.913,
+      "support": 1000
+    },
+    "bird": {
+      "precision": 0.9107,
+      "recall": 0.9489,
+      "f1-score": 0.9294,
+      "support": 1000
+    },
+    "cat": {
+      "precision": 0.9357,
+      "recall": 0.902,
+      "f1-score": 0.9185,
+      "support": 1000
+    },
+    "deer": {
+      "precision": 0.9242,
+      "recall": 0.927,
+      "f1-score": 0.9256,
+      "support": 1000
+    },
+    "dog": {
+      "precision": 0.9074,
+      "recall": 0.9401,
+      "f1-score": 0.9235,
+      "support": 1000
+    },
+    "frog": {
+      "precision": 0.939,
+      "recall": 0.9399,
+      "f1-score": 0.9395,
+      "support": 1000
+    },
+    "horse": {
+      "precision": 0.94,
+      "recall": 0.9249,
+      "f1-score": 0.9324,
+      "support": 1000
+    },
+    "ship": {
+      "precision": 0.9591,
+      "recall": 0.9371,
+      "f1-score": 0.948,
+      "support": 1000
+    },
+    "truck": {
+      "precision": 0.9456,
+      "recall": 0.9219,
+      "f1-score": 0.9336,
+      "support": 1000
+    }
+  }
+}
